@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+header {
+    display: grid;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+}
+
+header nav {
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    height: 51px;
+    padding: 1rem;
+    background-color: red;
+    text-align: center;   
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 1rem;
+    color: white;
+}
+nav a:hover {
+    background-color: darkorange;
+    color: black;
+}
+footer {
+    background-color: red;
+    color: white;
+    display: grid;
+    grid-row: 3/3;
+    grid-column: 1/-1;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+
+}

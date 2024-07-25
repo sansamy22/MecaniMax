@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header {
+    display: grid;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    font-size: 20px;
+}
+
+#logopagina {
+    width: 350px;
+    border-radius: 190px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#tituloprin {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/-1;
+}
+
+nav {
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    height: 51px;
+    padding: 1rem;
+    background-color: red;
+    text-align: center;   
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 1rem;
+    color: white;
+}
+
+nav a:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+main {
+    grid-column: 2/4;
+    font-size: 20px;
+}
+
+main h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    display: grid;
+    width: 450px;
+    grid-column: 2/4;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    display: grid;
+    grid-row: 3/3;
+    grid-column: 1/-1;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
