@@ -65,6 +65,9 @@ img {
     grid-column: 2/4;
 }
 
+ul {
+    list-style: none;
+}
 footer {
     background-color: red;
     color: white;

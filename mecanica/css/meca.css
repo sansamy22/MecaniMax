@@ -40,7 +40,9 @@ nav a:hover {
     background-color: darkorange;
     color: black;
 }
-
+ul {
+    list-style: none;
+}
 footer {
     background-color: red;
     color: white;
